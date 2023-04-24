@@ -1,0 +1,143 @@
+/*BANNER*/
+body{
+  font-family: kalam;
+  text-align: center;
+}
+.banner {
+  width: 100%;
+  border-radius:  0 0 50px 50px;
+  position: relative;
+  margin-bottom: -38px;
+
+}
+.logo {
+  position:absolute;
+  width: 15%;
+  top: 30px;
+  left: 30px;
+
+}
+/*MENU*/
+nav{
+  display: flex;
+  justify-content: center;
+    margin-bottom: -13px;
+}
+nav ul {
+  display: flex;
+  padding: 5px;
+  margin-right: 5px;
+  list-style: none;
+}
+nav li{
+  padding: 10px;
+}
+
+nav li a {
+  display:flex;
+  background-color: #9BCDD6;
+  color: #FF007F;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #D7A7BD;
+}
+h1{
+  color:#FF007F;
+}
+/*CONTEÙDO*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.produto {
+  padding: 30px;
+  text-align: center;
+  max-width: 300px;
+}
+.produto img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+}
+.produto h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #FF007F;
+}
+.produto p {
+  font-size: 14px;
+  color: #222222;
+  margin: 10px 0;
+}
+.catalogo{
+  padding: 10px;
+  text-align: center;
+  max-width: 100px;
+  display: flexbox;
+}
+.catalogo img{
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+  display:flexbox;
+}
+.nomeproduto{
+  color: #FF007F;
+  border: 1px solid #9BCDD6;
+  border-radius: 5px;
+  
+}
+.descricaoproduto{
+  font-size: 12px;
+  color: #222222;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+.textosobre{
+display: flex;
+justify-content: flex-start;
+align-items: center;   
+text-align: justify;
+font-size: 16px;
+width: 60vw;
+margin: auto;
+}
+.imgsobre{
+  width: 200px;
+  align-items: center;
+}
+/*BOTÃO*/
+.botao {
+  margin:auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  width: 7%;
+  height: 7%;
+}
+.botao:hover {
+  background-color:#9BCDD6;
+}
+/*RODAPÉ*/
+footer{
+  border: 2px solid #9BCDD6;
+  border-radius: 50px 50px 0 0;
+}
+.redes{
+  margin:50px;
+  width: 5%;
+  height: 5%;
+  border:#FF007F;
+  margin-bottom: -5px;
+}

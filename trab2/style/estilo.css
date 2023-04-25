@@ -1,0 +1,153 @@
+/*BANNER*/
+body{
+    font-family: kalam;
+    text-align: center;
+  }
+  .banner {
+    width: 100%;
+    border-radius:  0 0 50px 50px;
+    position: relative;
+    margin-bottom: -38px;
+  
+  }
+  .logo {
+    position:absolute;
+    width: 15%;
+    top: 30px;
+    left: 30px;
+  
+  }
+  
+  /*MENU*/
+  nav{
+    display: flex;
+    justify-content: center;
+      margin-bottom: -13px;
+  }
+  nav ul {
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    list-style: none;
+  }
+  nav li{
+    padding: 10px;
+  }
+  
+  nav li a {
+    display:flex;
+    background-color: #9BCDD6;
+    color: #FF007F;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav li a:hover {
+    background-color: #D7A7BD;
+  }
+  h1{
+    color:#FF007F;
+  }
+  /*CONTEÙDO*/
+  .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			padding: 20px;
+	}
+  /*PÁGINA PRODUTOS*/
+  .produto{
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+  }
+  .produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .produto figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .produto p {
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  
+    /*PÁGINA SOBRE*/
+  .textosobre{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;   
+  text-align: justify;
+  font-size: 16px;
+  width: 60vw;
+  margin: auto;
+  }
+  .imgsobre{
+    width: 200px;
+    align-items: center;
+  }
+
+
+  /*BOTÃO*/
+  .botao {
+    background-color:#9BCDD6;
+    border: none;
+    display: flex;
+    margin:auto;
+    color:#222222;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align:center;
+    cursor:pointer;
+
+  }
+  .botao:hover {
+    background-color:#D7A7BD;
+  }
+
+  .vejamais {
+    background-color: #9BCDD6;
+    border: none;
+    color: #222222;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .vejamais:hover{
+    background-color:#D7A7BD;
+  }
+
+  /*RODAPÉ*/
+  footer{
+    border: 2px solid #9BCDD6;
+    border-radius: 50px 50px 0 0;
+  }
+  .redessociais{
+    width: 50px;
+    padding: 20px;
+    
+  }
+
+
+  /*FORMULÁRIO*/
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  

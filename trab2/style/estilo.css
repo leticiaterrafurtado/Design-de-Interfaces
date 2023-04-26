@@ -78,11 +78,11 @@ body{
   /*PÁGINA PRODUTOS*/
   .produto{
     margin: 10px;
-    width: clamp(200px, 1000vw, 150px);
+    width: clamp(200px, 1000vw, 250px);
     text-align: center;
   }
   .produto img {
-    width: clamp(200px, 500vw, 100px);
+    width: clamp(200px, 500vw, 300px);
     height: auto;
     border-radius: 5px;
     margin-bottom: 10px;

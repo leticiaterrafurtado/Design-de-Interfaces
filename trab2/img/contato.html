@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <title>Loly Presentes</title>
+    <link rel="stylesheet" type="text/css" href="style/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+        <img class="banner" src="img/banner.jpg" alt="imagem banner">
+        <a href="index.html">
+        <img class="logo" src="img/logo.fw.png" alt="logotipo"></a>
+    </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">A Empresa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Solicite um orçamento por aqui!</h1>
+        <form>
+            <fieldset>
+                <legend>CONTATO</legend>
+                <label for="nome" class="form">Nome:*</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="sobrenome" class="form">Sobrenome:*</label>
+                <input type="text" id="sobrenome" name="sobrenome" required><br>
+                <label for="tel" class="form">Telefone:*</label>
+                <input type="tel" id="tel" name="tel" maxlength="11" required><br>
+                <label for="tel" class="form">Whatsapp:*</label>
+                <input type="tel" id="tel" name="tel" maxlength="11" required><br>
+				<label for="email" class="form">E-mail:*</label>
+                <input type="email" id="email" name="email" required><br>  
+                <label for="assunto" class="form">Interesses:*</label>
+                <select id="interesses" name="interesses" required>
+                    <option value="">Selecione</option>
+                    <option value="pelotas">Papelaria</option> 
+                    <option value="rio grande">Brigaderia</option>
+                    <option value="sao jose do norte">Presentes Personalizados</option>
+					<option value="sao jose do norte">Outros</option>                                                            
+                </select><br><br>                         
+                <label for="descricao" class="form">DESCRIÇÃO:*</label><br>
+                <textarea id="descricao" name="descricao" rows="10" cols="40" placeholder="Detalhe aqui as informações que deseja!" required></textarea><br>
+                <p><b>*Campos Obrigatórios</b></p>   
+                <input class="botao" type="submit" value="ENVIAR">
+                </div>
+            </fieldset>
+			<br><br><br>
+            <footer>
+                <a href="https://contate.me/lolypersonalizados">
+                    <img src="img/whats.fw.png" alt="whatsapp" class="redessociais">
+                </a>
+                <a href="https://www.facebook.com/lolypaperart">
+                    <img src="img/face.fw.png" alt="facebook" class="redessociais">
+                </a>
+                <a href="https://www.instagram.com/lolypresentesdiferenciados">
+                    <img src="img/insta.fw.png" alt="instagram" class="redessociais">
+                </a>
+            <div class="rodape">
+                <p>Rua Vidal de Negreiros, 537 A - Bairro Junção - Rio Grande/RS<br>
+                Telefone: (53) 9 9113 2530 - e-mail: lolypresentesdiferenciados@hotmail.com</p>
+            </div>
+        </footer>
+        </body>
+    </html>
